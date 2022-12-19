@@ -12,3 +12,6 @@ out/
 
 # Echidna
 crytic-export/
+
+# Mac
+.DS_Store
