@@ -38,7 +38,7 @@ Cmd: `echidna-test ./test/EchidnaFoo.sol --contract EchidnaFoo --test-mode prope
 
 #### Forge
 
-![forge_foobytes](./assets/foobytes.png)
+![forge_foobytes](./assets/forge_foobytes.png)
 
 #### Echidna
 

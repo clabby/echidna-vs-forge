@@ -8,17 +8,13 @@ contract FooBytes {
 
     function foo(bytes32 x) external {
         assembly {
-            if iszero(xor(x, MAGIC)) {
-                sstore(flagA.slot, 0x01)
-            }
+            if iszero(xor(x, MAGIC)) { sstore(flagA.slot, 0x01) }
         }
     }
 
     function bar(bytes32 y) external {
         assembly {
-            if iszero(xor(y, MAGIC)) {
-                sstore(flagB.slot, 0x01)
-            }
+            if iszero(xor(y, MAGIC)) { sstore(flagB.slot, 0x01) }
         }
     }
 
